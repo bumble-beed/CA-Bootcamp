@@ -9,20 +9,20 @@ let greetingMessage = "Howdy!";
 let lastLogin;
 
 // 🧠 Insert comments to explain what each console.log() below will log to the console
-console.log(typeof userID);
-console.log(typeof userPIN);
-console.log(typeof isVerified);
-console.log(typeof accountStatus);
-console.log(typeof userScore);
-console.log(typeof greetingMessage);
-console.log(typeof lastLogin);
+console.log(typeof userID); // number 
+console.log(typeof userPIN); // string as its in quotes
+console.log(typeof isVerified); // boolean
+console.log(typeof accountStatus); // object
+console.log(typeof userScore); // number
+console.log(typeof greetingMessage); // string
+console.log(typeof lastLogin); // undefined
 
 // ⏩ Variables can be reassigned to hold different types
-userScore = "Hello!";
-greetingMessage = false;
-lastLogin = 23;
+userScore = "Hello!"; // string
+greetingMessage = false; // boolean
+lastLogin = 23; // boolean
 
 // 🧠 Insert comments again to predict the output after reassignment
 console.log(typeof userScore);
 console.log(typeof greetingMessage);
-console.log(typeof lastLogin);
+console.log(typeof lastLogin); 

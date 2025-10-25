@@ -13,7 +13,7 @@
 
     userName = "Madison_123";
     followers = 1;
-    Bio = "This is new ❤️ and now I am done!";
+    bio = "This is new ❤️ and now I am done!";
 
 // 🧠 Logging the updated info
 
