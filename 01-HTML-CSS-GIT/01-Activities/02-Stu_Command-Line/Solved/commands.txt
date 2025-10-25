@@ -1,0 +1,9 @@
+# Paste your commands here, one per line.
+ls
+cd 
+cd ..
+cd ~
+pwd
+mkdir onetest
+touch noteone.txt
+touch notetwo.txt
