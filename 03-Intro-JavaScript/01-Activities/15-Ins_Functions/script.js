@@ -36,3 +36,6 @@ function sendCustomNotification(type, message, isImportant) {
 // Passing different data into the same function
 sendCustomNotification("update", "Your profile has been saved.", false);
 sendCustomNotification("reminder", "Team meeting at 3 PM!", true);
+
+// Function Declaration
+function sendNotification 

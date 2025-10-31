@@ -8,7 +8,7 @@
 // }
 
 // ✅ for loop example — repeat code multiple times
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < 5; i++) { // Alt counter variable 'i' from 0 to 4
   console.log(`Task ${i + 1}: Reviewing loop logic 🧠`);
 }
 
@@ -27,3 +27,23 @@ console.log("✅ Checking off tasks:");
 for (const task of todoList) {
   console.log(`Completed: ${task}`);
 }
+
+// Example
+
+// Example of a while loop (commented out for reference)
+let counter = 0;
+while (counter < 3) {
+  console.log(`While loop count: ${counter}`);
+  counter++;
+}
+
+// Using a for loop to iterate through an array
+const todoListExample = ["Finish homework", "Reply to emails", "Go for a run", "Cook dinner"];
+
+// Output
+// While loop count: 0
+// While loop count: 1
+// While loop count: 2
+// While loop count: 3
+// While loop count: 4
+  

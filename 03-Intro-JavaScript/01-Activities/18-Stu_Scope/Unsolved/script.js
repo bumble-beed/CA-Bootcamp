@@ -9,7 +9,7 @@ const justBroadcast = function () {
 const broadcastToAll = function () {
 
   // TODO: The variable 'broadcast' should return "Broadcast to all users"
-  let broadcast = "Radio";
+  // let broadcast = "Radio";
   console.log(`${broadcast} to all users!`);
   return;
 };

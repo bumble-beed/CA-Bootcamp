@@ -5,3 +5,11 @@
 // Logs: "⚠️ Inputs match in value, but not in type."
 
 // Logs: "❌ Inputs do not match."
+
+function matchCase(a,b) {
+    if (a === b) {
+        cxo
+    }
+
+
+}
