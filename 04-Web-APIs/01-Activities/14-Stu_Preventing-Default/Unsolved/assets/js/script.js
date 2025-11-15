@@ -22,10 +22,17 @@ function calculateTotal(total, tipAmount) {
 // 3) Submit handler — TODOs inside
 function addTip(event) {
   // TODO: Stop the form from reloading the page
+  event.preventDefault();
 
   // TODO: Read input values
   //  - Convert total to a number (parseFloat)
+  var total = parseFloat(totalEl.value);
+  var tipPct = parseFloat(tipEl.value);
   //  - Convert tip percentage to a decimal (value / 100)
+  tipAmount = tipPct / 100;
+
+  console.log(total);
+  console.log(tipAmount)
 
   // TODO: Guard against invalid inputs (NaN). If invalid, show a friendly message
   //  in tipOutEl/totalOutEl and return early.
