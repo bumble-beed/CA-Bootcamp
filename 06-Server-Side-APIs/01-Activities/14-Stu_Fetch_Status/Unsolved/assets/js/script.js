@@ -1,4 +1,5 @@
 const badRequestUrl = "https://api.nasa.gov/planetary/apod?apiKey=WRONG_KEY";
+const goodRequestUrl = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY"
 
 const responseText = document.getElementById("response-text");
 
@@ -10,6 +11,8 @@ function getApi(requestUrl) {
       // TODO:
       // Use response.status to update the page.
       // If the status is not 200, display it inside #response-text.
+      if(response.status !==200)
+      responseText.textContent = "Status:" + response.status;
 
       return response.json();
     })
@@ -24,4 +27,5 @@ function getApi(requestUrl) {
     });
 }
 
-getApi(badRequestUrl);
+// getApi(badRequestUrl);
+getApi(goodRequestUrl);
