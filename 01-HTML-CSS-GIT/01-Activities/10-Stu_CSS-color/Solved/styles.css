@@ -1,0 +1,19 @@
+/* Add your styles here */
+#banner {
+    background-color: cadetblue;
+    font-size: 30pxt;
+}
+
+h1 {
+    font-size: 30pxt;
+    color: coral;
+    text-align: center;
+    text-shadow: 0cqi;
+    padding: 0cap;
+}
+
+p {
+    font-size: medium;
+    font-style: italic;
+    background-color: aqua;
+}
