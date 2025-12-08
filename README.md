@@ -1,16 +1,11 @@
 # Code Academy Bootcamp
+---
 
 ## Description
 This is the repo created as part of Code Academy bootcamp for all the learnings and tasks as part of cirrculum
 
 Motivated to pick up new skills in the tech space and further enhance my career prospects in the Engineering space.
 The project is a full cumulative of all courseworks and assignmewnts 
-
-## Table of Contents (Optional)
-- [Module 1 - Foundations: HTML, CSS & Git (Weeks 1-3)](#Module 1)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
 
 ### Module 1 - Foundations: HTML, CSS & Git (Weeks 1-3)
 Key Topics Covered
@@ -63,8 +58,8 @@ Key Topics Covered
 - MERN Integration
 
 ## Credits
-Code Academy Full Stack Bootcamp
-Referance to for README format - https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+- Code Academy Full Stack Bootcamp
+- Referance to for README format - https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
 ## License
 MIT License - Copyright (c) [2025] [Shirleen A]
@@ -86,5 +81,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
 ---
