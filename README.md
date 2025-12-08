@@ -1,6 +1,4 @@
-Ref to for README format - https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
-
-# <CA Bootcamp>
+# Code Academy Bootcamp
 
 ## Description
 This is the repo created as part of Code Academy bootcamp for all the learnings and tasks as part of cirrculum
@@ -9,16 +7,12 @@ Motivated to pick up new skills in the tech space and further enhance my career 
 The project is a full cumulative of all courseworks and assignmewnts 
 
 ## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Module1 - Foundations: HTML, CSS & Git (Weeks 1-3)](#Module1)
+- [Module 1 - Foundations: HTML, CSS & Git (Weeks 1-3)](#Module 1)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
 
-## Module1 - Foundations: HTML, CSS & Git (Weeks 1-3)
-
+### Module 1 - Foundations: HTML, CSS & Git (Weeks 1-3)
 Key Topics Covered
 - HTML basics
 - Git Commands
@@ -26,58 +20,54 @@ Key Topics Covered
 - Bootstrap basics
 - Responsive design
 
-## Module 2 - Javascript Essentials (Weeks 4-6)
-
-<span style="color:green">Key Topics Covered</span>
+### Module 2 - Javascript Essentials (Weeks 4-6)
+Key Topics Covered
 - JS basics (variables, loops, arrays, functions, objects)
 - DOM Manipulation
 - APIs
 - JSON
 
-## Module 3 - Mega Project 1 & Advanced JS <span style="color:orange">(Weeks 7-9)</span>
-<span style="color:green">Key Topics Covered</span>
+### Module 3 - Mega Project 1 & Advanced JS (Weeks 7-9)
+Key Topics Covered
 - Team project (API + DOM)
 - Node.js basics
 - npm
 - CLI project workshop
 
- Module 4 - OOP & Express Foundations <span style="color:orange">(Weeks 10-12)</span>
-<span style="color:green">Key Topics Covered</span>
+### Module 4 - OOP & Express Foundations (Weeks 10-12)
+Key Topics Covered
 - OOP in JS
 - Express.js basics
 - Middleware
 - deploy to render
 - PostgreSQL basics
 
-## Module 5 - Database & ORM <span style="color:orange">(Weeks 13-15)</span>
-<span style="color:green">Key Topics Covered</span>
+### Module 5 - Database & ORM (Weeks 13-15)
+Key Topics Covered
 - Prisma setup
 - Relationships
 - Express + Prisma + Nunjucks
 - Authentication
 
-## Module 6 - Mega Project 2 & MongoDB <span style="color:orange">(Weeks 16-18)</span>
-<span style="color:green">Key Topics Covered</span>
+### Module 6 - Mega Project 2 & MongoDB (Weeks 16-18)
+Key Topics Covered
 - Team project using APIs
 - Auth optional
 - MongoDB & Mongoose
 
-Module 7 - React & MERN Integration <span style="color:orange">(Weeks 19-20)</span>
-<span style="color:green">Key Topics Covered</span>
+### Module 7 - React & MERN Integration (Weeks 19-20)
+Key Topics Covered
 - React basics 
 - Components
 - JSX
 - MERN Integration
 
-
 ## Credits
 Code Academy Full Stack Bootcamp
+Referance to for README format - https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
 ## License
-
-MIT License
-
-Copyright (c) [2025] [Shirleen A]
+MIT License - Copyright (c) [2025] [Shirleen A]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
