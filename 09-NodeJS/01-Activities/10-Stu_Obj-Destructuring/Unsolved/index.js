@@ -17,6 +17,8 @@ const runtime = {
 
 // const { ... } = runtime;
 
+const { name, category } = runtime;
+
 console.log(name);
 console.log(category);
 
@@ -45,9 +47,15 @@ const languageInfo = {
 
 // const { ... } = languageInfo.tooling.frameworks;
 
+const { primary, secondary } = languageInfo.tooling.frameworks;
+
 console.log(primary);
 console.log(secondary);
 
+const { utility, testing} = languageInfo.tooling.libraries;
+
+console.log(utility);
+console.log(testing);
 
 // ------------------------------------------------------------
 // 3. Array Destructuring
@@ -63,8 +71,8 @@ const coreTechnologies = ["HTML", "CSS", "JavaScript"];
 
 // const [ ... ] = coreTechnologies;
 
-console.log(markup, styling, scripting);
-console.log(scripting);
+// console.log(markup, styling, scripting);
+// console.log(scripting);
 
 
 // ------------------------------------------------------------
