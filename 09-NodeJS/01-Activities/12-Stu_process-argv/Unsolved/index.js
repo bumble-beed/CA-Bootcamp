@@ -4,9 +4,7 @@
 // 1. TODO: Log the full argv array so you can see what it contains.
 // ------------------------------------------------------------
 
-
-
-
+console.log("Full argv:", process.argv);
 
 // ------------------------------------------------------------
 // 2. TODO: Pull two arguments from the command line.
@@ -19,9 +17,11 @@
 // const a = ...
 // const b = ...
 
+const a = process.argv[2];
+const b = process.argv[3];
 
-
-
+console.log("\nArgument A:", a);
+console.log("Argument B:", b);
 
 // ------------------------------------------------------------
 // 3. TODO: Compare the two values.
@@ -34,12 +34,15 @@
 //    Choose at least ONE method.
 // ------------------------------------------------------------
 
+console.log("\nComparison results:");
 
+if (a === b) {
+    console.log("Match (if/else):", true);
+} else {
+    console.log("Match (if/else):", false);
+}
 
-
-
-
-
+console.log("Match ternary:", a === b ? true : false);
 // ------------------------------------------------------------
 // 4. BONUS:
 //    Try comparing them multiple ways, such as:

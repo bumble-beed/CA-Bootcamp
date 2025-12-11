@@ -11,9 +11,14 @@ const fs = require("fs");
 
 const writeToLog = message => {
   // Your code here
+  fs.writeFile("log.txt", message, err => {
+    if (err) {
+      console.error("Error when writing to file:", err);
+      return;
+    }
+    console.log("Log created?");
+  })
 };
-
-
 
 // ------------------------------------------------------------
 // TODO: Implement addFunc(x, y)
