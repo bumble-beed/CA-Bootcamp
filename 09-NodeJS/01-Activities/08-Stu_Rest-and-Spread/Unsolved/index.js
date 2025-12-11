@@ -5,18 +5,17 @@
 // Exercise 1 — Spread operator to copy an array
 // ------------------------------------------------------------
 
-const songs = ["Creep", "Everlong", "Bulls On Parade", "Song 2", "What I Got"];
+const songs = ["Affection", "Everlong", "Bulls On Parade", "Song 2", "What I Got"];
 
 // TODO:
 // 1. Create a NEW array named `newSongs` using the spread operator.
 // 2. Add a comment explaining what the spread operator does.
 // 3. Log the new array.
 
-
-
-
-
-
+// Spread operator to copy array "songs into another array"
+const newSongs = [...songs, "1989"];
+// console.log to show output
+console.log(newSongs);
 
 // ------------------------------------------------------------
 // Exercise 2 — Summing values with reduce()
@@ -29,17 +28,12 @@ const songs = ["Creep", "Everlong", "Bulls On Parade", "Song 2", "What I Got"];
 //  - Use reduce() to return the sum
 //  - Add comments describing how reduce() works
 
+function sumThree(x, y, z){
+    const values = [x, y, z];
+    return values.reduce((sum, n) => sum + n, 0);
+}
 
-
-
-
-
-
-
-
-// console.log(sumThree(1, 2, 3)); // Expected: 6
-
-
+console.log(sumThree(1, 2, 3)); // Expected: 6
 
 // ------------------------------------------------------------
 // Exercise 3 — Rest parameters for flexible arguments
